@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="font.jpg"><link rel="stylesheet" type="text/css" href="es.css">
+<body background="verde.jpg" class="anita">
+<img src="calcu.jpg" align="left" width="60" height="60">   
+<font size="8"><font face="Merriweather-Light"  ><div class="div34" class="anita"><b><big><b>CALCULADORA.&nbsp;&nbsp;</big></b></center><BR>
+    </font></div></font></font></BR></div></font></font></h1></big></b></div>
+<br><br>
+    <div class="cuadro21"> 
+    <script type="text/javascript">
+       var m=0;
+        x = [];
+        function suma() {
+        var n1= Number(document.getElementById("numu").value);
+        var n2= Number(document.getElementById("numd").value);
+        var res=n1+n2;
+        document.getElementById('resu').value=res;
+        x.push(res);
+        res.value=x.length;
+        document.getElementById('cuenta').value=x;
+        }
+</script>
+<form>
+        <center><label >Calcular</label><br></center>
+        <center><input type="text" id="numu" placeholder="Ingrese un numero" ><br><br></center>
+        <center><input type="text" id="numd" placeholder="Ingrese un numero" ><br><br></center>
+        <br>
+        <br>
+        <center><input type="button" value="Ingresar" onclick="suma();"></center>
+        <br>
+        <br>
+        <center><label >Resultado :</label><br></center>
+        <center><input type="" id="resu" value=""></center>
+        <center><input type="" id="cuenta" value=""></center>
+       
+    </form>
+</body>
+</html>
